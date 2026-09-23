@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello from Node.js GitOps App!");
+  res.send("Hello from Node.js GitOps App - GitOps v2!!");
 });
 
 app.listen(PORT, () => {
